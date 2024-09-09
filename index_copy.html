@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imersão Dev Alura</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tags HTML</h1>
+    </header>
+
+    <main>
+      <section>
+        <input
+          type="text" id="input-pesquisa" placeholder="Digite aqui a tag que deseja pesquisar"
+        />
+        <button onclick="pesquisar()">pesquisar</button>
+      </section>
+      <section class="resultados-pesquisa" id="resultados-pesquisa">
+      </section>
+
+      <section>
+        <h3>curiosidades</h3>
+        <>
+          a tag head serve para as informações de navegador como metatags de
+          encoding, responsividade, título, etc.
+          <br />A tag section divide o corpo da página em seções.
+          <br />ctrl+alt+f identa o código no vscode <br />alt+z quebra linha
+          para caber na tela <br />a tag a é de anchor. Por isso serve para
+          links. <br />No css quando é uma classe começa com . <br />quando é um
+          id com # <br />quando é somente o elemento, só coloca o nome do
+          elemento.<br />
+          Podemos colocar a tag div para fazer divisoes dentro de uma section e
+          assim estilizar os elementos filhos.<br />
+          A tag script faz o link do arquivo .js com o nosso html. Deve ser
+          colocada no final do documento html, antes do fechamento da tag body.
+          Pois primeiro vai carregar os elementos da tela e depois a lógica que
+          tiver no .js. Isso melhora a xp do usuário.<br /> Diferença entre let, const e var:<br />&nbsp;&nbsp;&nbsp;&nbsp;VAR:Escopo: Funcional ou global. Uma variável declarada com var pode ser acessada em qualquer lugar dentro da função em que foi declarada ou globalmente, se declarada fora de qualquer função.
+          Mutabilidade: Pode ser reatribuída e redeclarada dentro de seu escopo.<br />&nbsp;&nbsp;&nbsp;&nbsp;LET:Escopo: De bloco. Uma variável declarada com let só pode ser acessada dentro do bloco (como um if, for ou função) em que foi declarada.
+          Mutabilidade: Pode ser reatribuída, mas não redeclarada dentro do mesmo escopo.<br />&nbsp;&nbsp;&nbsp;&nbsp;CONST:Escopo: De bloco.
+          Mutabilidade: Não pode ser reatribuída nem redeclarada. O valor deve ser atribuído no momento da declaração e permanece imutável.<br />Em JavaScript moderno, é altamente recomendado utilizar let e const em vez de var. O uso de const por padrão ajuda a prevenir erros e torna o código mais previsível. Utilize let apenas quando for necessário reatribuir o valor da variável.
+
+          Observações:
+          
+          Hoisting: As declarações var são "hoistadas" para o topo do seu escopo, o que significa que podem ser usadas antes de serem declaradas. As declarações let e const não são hoistadas.
+          Inicialização: Variáveis declaradas com const devem ser inicializadas no momento da declaração.
+          Em resumo:
+          
+          var: Evite usar em JavaScript moderno.
+          let: Use para variáveis que podem mudar.
+          const: Use para valores que nunca devem mudar.<br /> ctrl+/ comenta o que estiver selecionado.<br />ctrl+shift+P abre o menu de pesquisa. <br />ctrl+shift+F abre o menu de busca. <br />ctrl+shift+G abre o menu de navegação. <br />ctrl+shift+H abre o menu de historico.<br /> atributo id no html é usado para o javascript identificar o elemento. Já o atributo class serve para o css identificar qual elemento deve ser estilizado.<br /> .innerHtml significa dentro desse html.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>footer 2024</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
